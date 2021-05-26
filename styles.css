@@ -1,4 +1,103 @@
-body {
+body{
+  background: url('images/bg.jpg') top left / cover no-repeat;
+}
+
+ul {
+  list-style: none;
+  padding-left: unset;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.nav--main .nav__item {
+   background-color: #A63634;
+}
+
+.nav--main .nav__link {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+.nav--main .nav__item:not(:last-child){
+  margin-right: 10px;
+}
+}
+
+#carousel {
+  height: 365px;
+  background: url('images/top-image.png') no-repeat -120px -120px;
+  position: relative;
+  overflow: hidden;
+}
+
+#carousel::before {
+  content: url('images/grid.png');
+  opacity: .3;
+
+}
+
+#carousel > .logo {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+#news article {
+  background-color: white;
+  padding: 20px;
+}
+
+
+#skateboarders img {
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.skateboarder {
+  border: solid 5px #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.skateboarder_lance {
+ margin-right: 1.5rem;
+}
+.skateboarder_tommy {
+  height: 100%;
+}
+
+.skateboarder span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#skateboards {
+  background-color: white;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .skateboard-image {
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-25%);
+    height: 260px;
+    width: 65px;
+  }
+}
+
+/* body {
   background-image: url(images/bg.jpg);
 }
 
@@ -6,76 +105,76 @@ body {
   width: 100%;
 } */
 
-.main {
+/* .main {
   padding: 0 100px 30px;
-}
+} */
 /* HEADER BUTTONS */
-.header-buttons > div > button {
+/* .header-buttons > div > button {
   background-color: #A63634;
   border: 0;
   color: white;
   width: 250px;
   height: 47px;
   border-bottom: solid 3px #929192;
-}
+} */
 
 /* CAROUSEL PHOTOS */
-.carousel-photo {
+/* .carousel-photo {
   margin-top: 20px;
-}
+} */
 
-.carousel-photo > div {
+/* .carousel-photo > div {
   height: 365px;
   border: solid 10px white;
   background-image: url(images/top-image.png);
   background-position: center top;
-}
+} */
 
-.carousel-photo-toggle > div {
+/* .carousel-photo-toggle > div {
   height: 50px;
   text-align: center;
-}
+} */
 
 /* ARTICLES */
-.article {
+/* .article {
   height: 365px;
   border: solid 1px red;
   background-color: #F8F7F8;
-}
+} */
 
 /* SKATERS BIO */
-.skaters {
+/* .skaters {
     height: 460px;
     margin-top: 50px;
-}
+} */
 
-.tommy > img{
+/* .tommy > img{
   height: 480px;
 }
 .skaters > div > div > div > img {
-  height: 240px;
+  height: 240px; */
   /* width: 100%; */
-}
+/* } */
 
 /* SKATEBOARD IMAGES */
-.skateboard-images {
+/* .skateboard-images {
   margin-top: 20px;
   height: 365px;
   background-color: white;
-}
+} */
 
 /* CONTACT FORM */
-.contact-us {
+/* .contact-us {
   margin-top: 20px;
   height: 365px;
   background-color: #FCFCFC;
-}
+} */
 
 /* .skateboar-images {
   width: auto;
 } */
 
-.rotate {
+/* .rotate {
   transform: rotate(90deg);
   position: absolute;
   top: 40%;
@@ -93,4 +192,4 @@ body {
 
 ul {
   list-style-type: none;
-}
+} */
