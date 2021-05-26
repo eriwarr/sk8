@@ -1,0 +1,96 @@
+body {
+  background-image: url(images/bg.jpg);
+}
+
+/* img {
+  width: 100%;
+} */
+
+.main {
+  padding: 0 100px 30px;
+}
+/* HEADER BUTTONS */
+.header-buttons > div > button {
+  background-color: #A63634;
+  border: 0;
+  color: white;
+  width: 250px;
+  height: 47px;
+  border-bottom: solid 3px #929192;
+}
+
+/* CAROUSEL PHOTOS */
+.carousel-photo {
+  margin-top: 20px;
+}
+
+.carousel-photo > div {
+  height: 365px;
+  border: solid 10px white;
+  background-image: url(images/top-image.png);
+  background-position: center top;
+}
+
+.carousel-photo-toggle > div {
+  height: 50px;
+  text-align: center;
+}
+
+/* ARTICLES */
+.article {
+  height: 365px;
+  border: solid 1px red;
+  background-color: #F8F7F8;
+}
+
+/* SKATERS BIO */
+.skaters {
+    height: 460px;
+    margin-top: 50px;
+}
+
+.tommy > img{
+  height: 480px;
+}
+.skaters > div > div > div > img {
+  height: 240px;
+  /* width: 100%; */
+}
+
+/* SKATEBOARD IMAGES */
+.skateboard-images {
+  margin-top: 20px;
+  height: 365px;
+  background-color: white;
+}
+
+/* CONTACT FORM */
+.contact-us {
+  margin-top: 20px;
+  height: 365px;
+  background-color: #FCFCFC;
+}
+
+/* .skateboar-images {
+  width: auto;
+} */
+
+.rotate {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 40%;
+
+
+}
+
+.skate-list {
+  height: 365px;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
